@@ -1,4 +1,10 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: rgb(191, 236, 250);
+    margin: 20px 150px;
+}
+
+article {
+    display: block;
+        
 }
