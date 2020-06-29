@@ -5,6 +5,12 @@ class Foundations extends React.Component {
         return (
             <>
                 <h3>Foundations Contents</h3>
+                <p>
+                    Blurb about foundations
+                </p>
+                <p>
+                    make pages flash clickable image when hover??
+                </p>
                 <ul>
                     <li><a href="https://fai-songprasit.github.io/">Blog</a></li>
                     <li><a href="https://fai-songprasit.github.io/minesweeper/">MineSweeper</a></li>
