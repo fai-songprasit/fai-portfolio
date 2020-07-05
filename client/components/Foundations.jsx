@@ -1,6 +1,22 @@
 import React from 'react'
 
 class Foundations extends React.Component {
+    state = {
+        clicked: false,
+    }
+
+    handleClick = (e) => {
+        if (this.state.clicked == true) {
+            this.setState ({
+                clicked: false
+            })
+        } else if (this.state.clicked == false) {
+            this.setState ({
+                clicked: true
+            })
+        }
+    }
+    
     render() {
         return (
             <>

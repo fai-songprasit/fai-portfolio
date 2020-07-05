@@ -1,10 +1,38 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: rgb(191, 236, 250);
-    margin: 20px 150px;
+    margin: 5% 15%;
 }
 
 article {
     display: block;
-        
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 1% 0;
+}
+
+.list {
+    justify-content: flex-start;
+    width: 25%;
+    height: auto;
+    background-color: grey;
+}
+
+.content {
+    justify-content: flex-start;
+    width: 75%;
+    height: auto;
+    background-color: white;
+}
+
+.text {
+    margin: 5%;
+}
+
+.hover {
+    cursor: pointer;
 }
