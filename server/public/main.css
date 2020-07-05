@@ -36,3 +36,8 @@ article {
 .hover {
     cursor: pointer;
 }
+
+.hover a:hover{
+    cursor: pointer;
+    color: white;
+}

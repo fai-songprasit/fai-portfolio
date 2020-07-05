@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkWithMe = () => {
+const WorkWithMe = (props) => {
     return (
         <div>
             <h3>WorkWithMe</h3>

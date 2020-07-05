@@ -7,9 +7,14 @@ import QuizMeTender from './QuizMeTender'
 class GroupProjects extends React.Component {
     state = {
         clicked: false,
+        name: '',
     }
 
+    //need to fix this so that each individual click check if its the right name is clicked
+    //right now any of the <a> changes clicked state instead of swtching between their clicks
+    //need to pass state to component to check if the name is the right one before showing content
     handleClick = (e) => {
+        let name = e.target.getAttribute('name')
         if (this.state.clicked == true) {
             this.setState ({
                 clicked: false,
@@ -18,6 +23,7 @@ class GroupProjects extends React.Component {
         } else if (this.state.clicked == false) {
             this.setState ({
                 clicked: true,
+                name: name,
             })
         }
     }
@@ -46,10 +52,10 @@ class GroupProjects extends React.Component {
                         {/* may need to use onclick in all the components to get it to work */}
                         {this.state.clicked ? 
                             <div>
-                                <WorkWithMe/>
-                                <Grateful8/>
-                                <LifeOfTheParty/>
-                                <QuizMeTender/>
+                                <WorkWithMe data={this.state.name}/>
+                                <Grateful8 data={this.state.name}/>
+                                <LifeOfTheParty data={this.state.name}/>
+                                <QuizMeTender data={this.state.name}/>
                             </div> 
                             : <div>
                                 <h3>Group project contents</h3>

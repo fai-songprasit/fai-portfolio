@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Grateful8 = () => {
+const Grateful8 = (props) => {
     return (
         <div>
             <h3>Grateful-8</h3>
@@ -12,6 +12,7 @@ const Grateful8 = () => {
                 <a href="https://grateful-8.herokuapp.com/">grateful-8</a>
         </div>
     )
+
 }
 
 export default Grateful8
