@@ -26,7 +26,7 @@ class Home extends React.Component {
                     completely from scratch.
                 </p>
                 <p>
-                    So without further ado, please allow me to introduce 
+                    So without further ado, allow me to introduce 
                     myself.
                 </p>
                 <p>
