@@ -17,6 +17,15 @@ class Home extends React.Component {
                     will continue to grow as I expand into this industry.
                 </p>
                 <p>
+                    Having been in the hospitality industry for most of my working 
+                    career, it was safe to say that I have had next to no experience 
+                    with programming prior to EDA. Thinking about this after
+                    the fact, I wish I had made the switch sooner as I didn't realise 
+                    how much I was going to enjoy the challenge and how rewarding
+                    and gratifying it would be to have all the tests pass and have 
+                    created something myself completely from scratch.
+                </p>
+                <p>
                     So without further ado, please allow me to introduce 
                     myself.
                 </p>

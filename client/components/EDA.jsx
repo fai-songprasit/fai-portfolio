@@ -8,14 +8,21 @@ class EDA extends React.Component {
             <>
             <h2>Enspiral Dev Academy</h2>
                 <p>
-                    My career change started at <a href="https://devacademy.co.nz/">
-                    EDA</a> in 2020, where I was part of the Kotare cohort.
-                    The bootcamp started in May 2020 and ended at the start of 
-                    August 2020, I have had next to no experience with programming 
-                    prior to this course.
+                    My career changed when I decided to enrol at <a href="https://devacademy.co.nz/">
+                    EDA</a>. The course began in April 2020 during the COVID-19 
+                    lockdown. First came Foundations, covering HTML, CSS, JavaScript 
+                    and Git. 
                 </p>
-            <Foundations/>
-            <GroupProjects/>
+                <Foundations/>
+                <p>
+                    The course then progressed onto the Bootcamp phase 
+                    around mid-May, when level 2 was enforced and the students were 
+                    allowed back on campus for studies. At this phase across 9 weeks 
+                    I learnt to use both back-end and front-end tools like, npm, 
+                    express, handlebars, SQLite, REST API (create internal and 
+                    pulling from external), React, Redux and authentication
+                </p>
+                <GroupProjects/>
             </>
         )
     }

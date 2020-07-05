@@ -1,4 +1,6 @@
 import React from 'react'
+import Blog from './Blog'
+import Minesweeper from './Minesweeper'
 
 class Foundations extends React.Component {
     state = {
@@ -16,23 +18,40 @@ class Foundations extends React.Component {
             })
         }
     }
-    
     render() {
         return (
-            <>
-                <h3>Foundations Contents</h3>
-                <p>
-                    Blurb about foundations
-                </p>
-                <p>
-                    make pages flash clickable image when hover??
-                </p>
-                <ul>
-                    <li><a href="https://fai-songprasit.github.io/">Blog</a></li>
-                    <li><a href="https://fai-songprasit.github.io/minesweeper/">MineSweeper</a></li>
-                    <li>Calculator (WORK ON THIS WITH REACT STATE)</li>
-                </ul>
-            </>
+            <div className="container">
+                <div className="list">
+                    <div className="text">
+                        <p className="hover">
+                            <a name="Blog" onClick={this.handleClick}>Blog</a>
+                        </p>
+                        <p className="hover">
+                            <a name="MS" onClick={this.handleClick}>Minesweeper</a>
+                        </p>
+                    </div>
+                </div>
+                <div className="content">
+                    <div className="text">
+                        {/* may need to use onclick in all the components to get it to work */}
+                        {this.state.clicked ? 
+                            <div>
+                                <Blog data={this.state.name}/>
+                                <Minesweeper data={this.state.name}/>
+                            </div> 
+                            : <div>
+                                <h3>Foundations Contents</h3>
+                                    <p>
+                                    Blurb about foundations
+                                    </p>
+                                    <p>
+                                        make pages flash clickable image when hover??
+                                    </p>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
         )
     }
 }
