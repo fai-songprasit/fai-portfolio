@@ -56,7 +56,6 @@ class Foundations extends React.Component {
                 </div>
                 <div className="content">
                     <div className="text">
-                        {/* may need to use onclick in all the components to get it to work */}
                         {this.renderContent(this.state.id)}
                     </div>
                 </div>

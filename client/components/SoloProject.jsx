@@ -1,34 +1,75 @@
 import React from 'react'
+import Kudosu from './Kudosu'
 
 class SoloProject extends React.Component {
     state = {
-        clicked: false,
+        id: '',
     }
 
     handleClick = (e) => {
-        if (this.state.clicked == true) {
+        const id = e.target.getAttribute('id')
+        if (this.state.id == id) {
             this.setState ({
-                clicked: false
+                id: '',
             })
-        } else if (this.state.clicked == false) {
+        } else {
             this.setState ({
-                clicked: true
+                id: id,
             })
         }
+    }
+
+    renderContent = (id) => {
+        switch (id){
+            case "1":
+                return <Kudosu/>
+            default:
+                return (
+                    <div>
+                    <h3>Solo project</h3>
+                        <p>
+                            Blurb about solo work
+                        </p>
+                    </div>
+                )
+        } 
     }
     
     render() {
         return (
-            <>
-                <h2>Solo project</h2>
+            <div>
+                <h2>Application</h2>
                     <p>
-                        Blurb about solo work
+                        This portfolio was the first solo project that I've worked
+                        on that was not part of the course content. For the most part 
+                        of bootcamp, the exercises that have been given to us to work
+                        on during the week were mostly half started. Either the
+                        front-end or the back-end side has been partially completed
+                        inorder for us to quickly absorb and practive the core concepts
+                        of the new tech.
                     </p>
-                    <h3>Sudoku using external API</h3>
-                        <p>
-                            Blurb content
-                        </p>
-            </>
+                    <p>
+                        What this section concerns itself with are projects that I have
+                        worked on or have been working on in my own time. I use it as 
+                        a way to challenge myself and learn new techniques or to 
+                        reinforce old ones, as some challenges can only be found when 
+                        you are building something from scratch.
+                    </p>
+                <div className="container">
+                    <div className="list">
+                        <div className="text">
+                            <p className="hover">
+                                <a id="1" onClick={this.handleClick}>Kudosu</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <div className="text">
+                            {this.renderContent(this.state.id)}
+                        </div>
+                    </div>
+                </div>
+            </div>
         )
     }
 }
