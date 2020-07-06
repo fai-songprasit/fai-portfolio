@@ -4,51 +4,60 @@ import Minesweeper from './Minesweeper'
 
 class Foundations extends React.Component {
     state = {
-        clicked: false,
+        id: '',
     }
 
     handleClick = (e) => {
-        if (this.state.clicked == true) {
+        const id = e.target.getAttribute('id')
+        if (this.state.id == id) {
             this.setState ({
-                clicked: false
+                id: '',
             })
-        } else if (this.state.clicked == false) {
+        } else {
             this.setState ({
-                clicked: true
+                id: id,
             })
         }
     }
+
+    renderContent = (id) => {
+        switch (id){
+            case "1":
+                return <Blog/>
+            case "2":
+                return <Minesweeper/>
+            default:
+                return (
+                    <div>
+                        <h3>Foundations Contents</h3>
+                        <p>
+                            Blurb about foundations
+                        </p>
+                        <p>
+                            make pages flash clickable image when hover??
+                        </p>
+                    </div>
+                )
+        } 
+    }
+
     render() {
         return (
             <div className="container">
                 <div className="list">
                     <div className="text">
                         <p className="hover">
-                            <a name="Blog" onClick={this.handleClick}>Blog</a>
+                            <a id="1" onClick={this.handleClick}>Blog</a>
                         </p>
                         <p className="hover">
-                            <a name="MS" onClick={this.handleClick}>Minesweeper</a>
+                            <a id="2" onClick={this.handleClick}>Minesweeper</a>
                         </p>
                     </div>
                 </div>
                 <div className="content">
                     <div className="text">
                         {/* may need to use onclick in all the components to get it to work */}
-                        {this.state.clicked ? 
-                            <div>
-                                <Blog data={this.state.name}/>
-                                <Minesweeper data={this.state.name}/>
-                            </div> 
-                            : <div>
-                                <h3>Foundations Contents</h3>
-                                    <p>
-                                    Blurb about foundations
-                                    </p>
-                                    <p>
-                                        make pages flash clickable image when hover??
-                                    </p>
-                            </div>
-                        }
+                        {this.renderContent(this.state.id)}
                     </div>
                 </div>
             </div>

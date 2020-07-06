@@ -23,7 +23,6 @@ class GroupProjects extends React.Component {
     }
 
     renderContent = (id) => {
-        console.log(typeof this.state.id)
         switch (id){
             case "1":
                 return <WorkWithMe/>
