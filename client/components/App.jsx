@@ -23,6 +23,17 @@ const App = () => {
         <Route path="/bootcamp" component={Bootcamp}/>
         <Route path="/solo" component={SoloProject}/>
       </Router>
+      <footer>
+        <p>
+          find out more:
+        </p>
+        <a href="https://github.com/fai-songprasit">
+          <img src='../images/github.png' alt='github logo'/>
+        </a>
+        <a href="https://www.linkedin.com/in/fai-songprasit/">
+          <img className="linkedin" src='../images/linkedin.png' alt='linkedin logo'/>
+        </a>
+      </footer>
     </>
   )
 }

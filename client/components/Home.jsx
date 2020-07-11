@@ -19,10 +19,10 @@ const Home = () => {
                     Having been in the hospitality industry for most of my working 
                     career, it was safe to say that I have had next to no experience 
                     with programming prior to EDA. In hindsight, I wish I had made 
-                    the switch sooner as I didn't realise how much I was going to 
-                    enjoy the challenge and how rewarding and gratifying it would be 
-                    have all the tests pass and have created something myself 
-                    completely from scratch.
+                    the switch sooner. I never would have realised how much I was 
+                    going to enjoy the challenge and how rewarding and gratifying 
+                    it would be to when all the tests passes and have created 
+                    something myself completely from scratch.
                 </p>
                 <p>
                     So without further ado, allow me to introduce 
@@ -31,7 +31,7 @@ const Home = () => {
                 <p>
                     My name is Fai Songprasit and I am a Junior full-stack 
                     web developer.
-                </p>  
+                </p>
             </div>  
         </>
     )

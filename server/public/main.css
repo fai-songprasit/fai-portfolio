@@ -14,6 +14,26 @@ header {
     border-radius: 5px;
 }
 
+footer {
+    text-align: center;
+    margin-top: 5px;
+    background-color: #77c9d4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer img {
+    width: 80px;
+    margin: -15px 10px auto 10px;
+}
+
+.linkedin {
+    width: 60px;
+    height: auto;
+    position: relative;
+    top: -8px;
+}
+
 article {
     display: block;
 }
@@ -25,6 +45,16 @@ article {
 
 .nav {
     margin-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav:visited{
+    color: rgb(68, 16, 163);
+}
+
+.nav:hover{
+    color: rgba(67, 16, 163, 0.603);
 }
 
 .container {
