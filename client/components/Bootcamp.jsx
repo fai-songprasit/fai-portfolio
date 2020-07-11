@@ -3,6 +3,7 @@ import WorkWithMe from './WorkWithMe'
 import Grateful8 from './Grateful8'
 import LifeOfTheParty from './LifeOfTheParty'
 import QuizMeTender from './QuizMeTender'
+import ShowMeTheMoney from './ShowMeTheMoney'
 
 class Bootcamp extends React.Component {
     state = {
@@ -32,6 +33,8 @@ class Bootcamp extends React.Component {
                 return <LifeOfTheParty/>
             case "4":
                 return <QuizMeTender/>
+            case "5":
+                return <ShowMeTheMoney/>
             default:
                 return (
                     <div>
@@ -76,6 +79,9 @@ class Bootcamp extends React.Component {
                         </p>
                         <p className="hover">
                             <a id="4" onClick={this.handleClick}>Quiz Me Tender</a>
+                        </p>
+                        <p className="hover">
+                            <a id="5" onClick={this.handleClick}>Show Me the Money</a>
                         </p>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Kudosu from './Kudosu'
+import Todos from './Todos'
 
 class SoloProject extends React.Component {
     state = {
@@ -23,6 +24,8 @@ class SoloProject extends React.Component {
         switch (id){
             case "1":
                 return <Kudosu/>
+            case "2":
+                return <Todos/>
             default:
                 return (
                     <div>
@@ -38,7 +41,7 @@ class SoloProject extends React.Component {
     render() {
         return (
             <div>
-                <h2>Application</h2>
+                <h2>Solo Projects</h2>
                     <p>
                         This portfolio was the first solo project that I've worked
                         on that was not part of the course content. For the most part 
@@ -60,6 +63,9 @@ class SoloProject extends React.Component {
                         <div className="text">
                             <p className="hover">
                                 <a id="1" onClick={this.handleClick}>Kudosu</a>
+                            </p>
+                            <p className="hover">
+                                <a id="2" onClick={this.handleClick}>Todos</a>
                             </p>
                         </div>
                     </div>
