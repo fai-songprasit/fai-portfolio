@@ -4,7 +4,7 @@ import Grateful8 from './Grateful8'
 import LifeOfTheParty from './LifeOfTheParty'
 import QuizMeTender from './QuizMeTender'
 
-class GroupProjects extends React.Component {
+class Bootcamp extends React.Component {
     state = {
         id: '',
     }
@@ -46,6 +46,22 @@ class GroupProjects extends React.Component {
 
     render() {
         return (
+            <>
+            <h2>Bootcamp</h2>
+                <p>
+                    The course then progressed onto the Bootcamp phase 
+                    around mid-May, when level 2 was enforced and the students were 
+                    allowed back on campus for studies. At this phase across 9 weeks 
+                    I learnt to use both back-end and front-end tools such as npm, 
+                    Express, Handlebars, SQLite, creating internal amd consuming
+                    external API, Rect, Redux and Authentication. 
+                </p>
+                <p>
+                    Throughout the course students were to practice pair programming 
+                    during the learning phase, with group project capping off the
+                    week.
+                </p>
+
             <div className="container">
                 <div className="list">
                     <div className="text">
@@ -69,8 +85,9 @@ class GroupProjects extends React.Component {
                     </div>
                 </div>
             </div>
+            </>
         )
     }
 }
 
-export default GroupProjects
+export default Bootcamp
