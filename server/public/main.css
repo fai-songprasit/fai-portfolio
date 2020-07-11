@@ -1,7 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #f1f1f1;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
     max-width: 700px;
     height: auto;
@@ -9,17 +9,17 @@ body {
 
 header {
     margin-top: 5px;
-    background-color: #77c9d4;
     padding: 5px 20px;
     border-radius: 5px;
+    background-image: url('../images/wall1.jpg');
 }
 
 footer {
     text-align: center;
     margin-top: 5px;
-    background-color: #77c9d4;
     padding: 5px;
     border-radius: 5px;
+    background-image: url('../images/wall1.jpg');
 }
 
 footer img {
@@ -54,7 +54,7 @@ article {
 }
 
 .nav:hover{
-    color: rgba(67, 16, 163, 0.603);
+    color: rgba(67, 16, 163, 0.5);
 }
 
 .container {
@@ -69,7 +69,8 @@ article {
     width: 25%;
     height: auto;
     border-radius: 5px 0 0 5px;
-    background-color: teal;
+    /* background-color: #6fc7b8; */
+    background-image: url('../images/topics.jpg');
 }
 
 .content {
@@ -78,6 +79,7 @@ article {
     height: auto;
     border-radius: 0 5px 5px 0;
     background-color: #6fc7b8;
+    /* background-image: url('../images/topics.jpg'); */
 }
 
 .text {

@@ -21,8 +21,8 @@ const Home = () => {
                     with programming prior to EDA. In hindsight, I wish I had made 
                     the switch sooner. I never would have realised how much I was 
                     going to enjoy the challenge and how rewarding and gratifying 
-                    it would be to when all the tests passes and have created 
-                    something myself completely from scratch.
+                    it would be when I have created something myself completely 
+                    from scratch.
                 </p>
                 <p>
                     So without further ado, allow me to introduce 

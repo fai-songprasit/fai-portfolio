@@ -7,7 +7,7 @@ const Minesweeper = (props) => {
                 <p>
                     Blurb about why this is being showcased
                 </p>
-                <li><a href="https://fai-songprasit.github.io/minesweeper/">MineSweeper</a></li>
+                <a href="https://fai-songprasit.github.io/minesweeper/">MineSweeper</a>
         </div>
     )
 
