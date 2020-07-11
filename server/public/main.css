@@ -4,6 +4,15 @@ body {
     margin: 5% 15%;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    margin-left: 15px;
+}
+
 article {
     display: block;
 }
