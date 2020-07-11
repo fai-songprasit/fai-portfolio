@@ -7,6 +7,17 @@ body {
     height: auto;
 }
 
+header {
+    margin-top: 5px;
+    background-color: #77c9d4;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+article {
+    display: block;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -14,10 +25,6 @@ body {
 
 .nav {
     margin-left: 15px;
-}
-
-article {
-    display: block;
 }
 
 .container {
@@ -31,6 +38,7 @@ article {
     justify-content: flex-start;
     width: 25%;
     height: auto;
+    border-radius: 5px 0 0 5px;
     background-color: teal;
 }
 
@@ -38,11 +46,16 @@ article {
     justify-content: flex-start;
     width: 75%;
     height: auto;
+    border-radius: 0 5px 5px 0;
     background-color: #6fc7b8;
 }
 
 .text {
     margin: 5%;
+}
+
+.subtext {
+    margin: 0 5%
 }
 
 .hover {
@@ -52,8 +65,4 @@ article {
 .hover a:hover{
     cursor: pointer;
     color: white;
-}
-
-header {
-    background-color: #77c9d4;
 }

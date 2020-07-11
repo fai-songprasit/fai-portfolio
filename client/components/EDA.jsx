@@ -1,4 +1,6 @@
 import React from 'react'
+import Blog from './Blog'
+import Minesweeper from './Minesweeper'
 
 class EDA extends React.Component {
     state = {
