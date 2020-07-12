@@ -12,8 +12,8 @@ const Home = () => {
                     If you're here then you're probably curious about what I 
                     can do as a developer. You will find that the contents 
                     of this page has been ordered chronologically across the 
-                    Web-Dev saga of my life, which began only recently, and 
-                    will continue to grow as I expand into this industry.
+                    Web-Dev saga of my life and will continue to grow as I expand 
+                    into this industry.
                 </p>
                 <p>
                     Having been in the hospitality industry for most of my working 
@@ -29,8 +29,8 @@ const Home = () => {
                     myself.
                 </p>
                 <p>
-                    My name is Fai Songprasit and I am a Junior full-stack 
-                    web developer.
+                    My name is <strong>Fai Songprasit</strong> and I am a <strong>
+                    Junior full-stack web developer</strong>.
                 </p>
             </div>  
         </>
