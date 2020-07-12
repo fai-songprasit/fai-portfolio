@@ -7,7 +7,7 @@ const QuizMeTender = () => {
                 <p>
                     Stuff about this project
                 </p>
-                <a href="https://quiz-me-tender.herokuapp.com/">QuizMeTender</a>
+                <a className="right" href="https://quiz-me-tender.herokuapp.com/">QuizMeTender</a>
         </div>
     )
 }
