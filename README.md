@@ -1,3 +1,6 @@
 # Fai's Portfolio
 
-### Here you will find the work in progress that is my portfolio
+### What you will find here
+
+- React portfolio site deployed using Heroku
+- Links to all projects that I have been a part of so far
