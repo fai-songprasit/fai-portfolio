@@ -42,6 +42,7 @@ class SoloProject extends React.Component {
         return (
             <div>
                 <h2>Solo Projects</h2>
+                <div className="subtext">
                     <p>
                         This portfolio was the first solo project that I've worked
                         on that was not part of the course content. For the most part 
@@ -58,6 +59,7 @@ class SoloProject extends React.Component {
                         reinforce old ones, as some challenges can only be found when 
                         you are building something from scratch.
                     </p>
+                </div>
                 <div className="container">
                     <div className="list">
                         <div className="text">

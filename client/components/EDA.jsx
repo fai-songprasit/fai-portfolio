@@ -29,13 +29,35 @@ class EDA extends React.Component {
             default:
                 return (
                     <div>
-                        <h3>Foundations Contents</h3>
+                        <h3>Foundations</h3>
                         <p>
-                            Blurb about foundations
+                            Both soft and technical skills were covered 
+                            throughout the five sprints.
                         </p>
-                        <p>
-                            make pages flash clickable image when hover??
-                        </p>
+                        <div className="flex_container">
+                        <div>
+                            <p>Soft Skills:</p>
+                            <ul>
+                                <li>Agile concepts</li>
+                                <li>Mindfulness</li>
+                                <li>Neuroplasticity</li>
+                                <li>Stress management</li>
+                                <li>Building good habits</li>
+                            </ul>
+                        </div>
+                        <div>
+                        <p>Techinical Skills:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Code readability</li>
+                                <li>JavaScript</li>
+                                <li>Git and Github</li>
+                                <li>DOM manipulation</li>
+                                <li>Test Driven Development</li>
+                            </ul>
+                        </div>
+                        </div>
                     </div>
                 )
         } 
@@ -45,13 +67,21 @@ class EDA extends React.Component {
         return (
             <>
             <h2>Enspiral Dev Academy</h2>
+            <div className="subtext">
                 <p>
                     My career changed when I decided to enrol at <a href="https://devacademy.co.nz/">
                     EDA</a>. The course began in April 2020 during the COVID-19 
-                    lockdown. Foundations was the first phase of the process. Where  
-                    HTML, CSS, JavaScript and Git was covered in preperations for 
-                    the intensive Bootcamp that was to come. 
+                    lockdown. Foundations was the first phase of the process, 
+                    consisting fo five week long sprints which worked its way 
+                    up in complexity.
                 </p>
+                <p>
+                    Foundation, as the name suggests, is a crash course through 
+                    the basics of HTML, CSS, JavaScript, DOM manipulation and Git. 
+                    The exercises were designed to prepare us for the intensive 
+                    Bootcamp that was to come. 
+                </p>
+            </div>
             <div className="container">
                 <div className="list">
                     <div className="text">

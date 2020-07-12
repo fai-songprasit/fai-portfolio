@@ -51,6 +51,7 @@ class Bootcamp extends React.Component {
         return (
             <>
             <h2>Bootcamp</h2>
+            <div className="subtext">
                 <p>
                     The course then progressed onto the Bootcamp phase 
                     around mid-May, when level 2 was enforced and the students were 
@@ -64,7 +65,7 @@ class Bootcamp extends React.Component {
                     during the learning phase, with group project capping off the
                     week.
                 </p>
-
+            </div>
             <div className="container">
                 <div className="list">
                     <div className="text">
