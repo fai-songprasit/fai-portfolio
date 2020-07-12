@@ -9,7 +9,17 @@ const Grateful8 = () => {
                     rendomly generate a response to any questions typed inside
                     the input field.
                 </p>
-                <a href="https://grateful-8.herokuapp.com/">grateful-8</a>
+                <p>
+                    In this project I was in charge of the front-end designs 
+                    of the page, which also incuded the use of SVG. SVG was 
+                    particularly challenging for me as it obeyed a different 
+                    set of rules from the CSS that I was used to.
+                </p>
+                <p>
+                    This was our first week using React instead of Handlebars 
+                    in conjunction with React router.
+                </p>
+                <a className="right" href="https://grateful-8.herokuapp.com/">Grateful-8</a>
         </div>
     )
 }

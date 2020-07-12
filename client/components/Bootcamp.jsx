@@ -40,7 +40,20 @@ class Bootcamp extends React.Component {
                     <div>
                         <h3>Group project contents</h3>
                         <p>
-                            Blurb about group projects, durations etc.
+                            Majority of the group projects had a time limit of one 
+                            day, with group sizes varying between 3 - 4 people per 
+                            team.
+                        </p>
+                        <p>
+                            Roles were also introduced during the group projects 
+                            with each student volunteering for particular roles. 
+                            These roles included product owner, scrum master, tech 
+                            leads and vibes checker.
+                        </p>
+                        <p>
+                            I found these projects vital for learning how to deal 
+                            with team dynamics, while maining momentum and focusing 
+                            on our MVP.
                         </p>
                     </div>
                 )
@@ -57,13 +70,13 @@ class Bootcamp extends React.Component {
                     around mid-May, when level 2 was enforced and the students were 
                     allowed back on campus for studies. At this phase across 9 weeks 
                     I learnt to use both back-end and front-end tools such as npm, 
-                    Express, Handlebars, SQLite, creating internal amd consuming
+                    Express, Handlebars, SQLite, creating internal and consuming
                     external API, Rect, Redux and Authentication. 
                 </p>
                 <p>
                     Throughout the course students were to practice pair programming 
                     during the learning phase, with group project capping off the
-                    week.
+                    each week.
                 </p>
             </div>
             <div className="container">
