@@ -31,7 +31,13 @@ class SoloProject extends React.Component {
                     <div>
                     <h3>Solo project</h3>
                         <p>
-                            Blurb about solo work
+                            This space is for showcasing what I have been able 
+                            to create in my own time outside of EDA. My aim is 
+                            to practice and learn how to build a more resposive 
+                            website while using what I have learnt so far to 
+                            optimise user experience, while generally keeping 
+                            up the habbit of learning new things and coding 
+                            regularly.
                         </p>
                     </div>
                 )

@@ -3,11 +3,18 @@ import React from 'react'
 const Todos = () => {
     return (
         <div>
-            <h3>Todo</h3>
+            <h3>Todos</h3>
                 <p>
-                    Stuff about this project
+                    This was my first solo full-stack project built during Bootcamp.
+                    The Todos list uses everything that we have learnt so far,  
+                    with a restricted timeframe of two days.
                 </p>
-                <a href="https://first-todos-list.herokuapp.com/">Todo</a>
+                <p>
+                    The front-end was built using React, Redux and CSS, while back-end 
+                    and database was built using Knex and SQLite. Later deployed using 
+                    Heroku.
+                </p>
+                <a className="right" href="https://first-todos-list.herokuapp.com/">Todo</a>
         </div>
     )
 }
