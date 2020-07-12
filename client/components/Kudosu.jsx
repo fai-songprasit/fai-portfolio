@@ -5,9 +5,15 @@ const Kudosu = () => {
         <>
             <h3>Kudosu</h3>
                 <p>
-                    Stuff about this project
+                    This is my solo project outside of EDA to practice consuming 
+                    an external API for the React framework while utilising 
+                    a database with Redux and internal API.
                 </p>
-            <a href="">Kudosu</a>
+                <p>
+                    This site is currently under construction and will be uploaded 
+                    here once deployed.
+                </p>
+            <a className="right" href="../404.html">Kudosu</a>
         </>
     )
 }

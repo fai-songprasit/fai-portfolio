@@ -23,10 +23,10 @@ class SoloProject extends React.Component {
     renderContent = (id) => {
         switch (id){
             case "1":
-                return <Kudosu/>
-            case "2":
                 return <Todos/>
-            default:
+            case "2":
+                return <Kudosu/>
+                    default:
                 return (
                     <div>
                     <h3>Solo project</h3>
@@ -64,10 +64,10 @@ class SoloProject extends React.Component {
                     <div className="list">
                         <div className="text">
                             <p className="hover">
-                                <a id="1" onClick={this.handleClick}>Kudosu</a>
+                                <a id="1" onClick={this.handleClick}>Todos</a>
                             </p>
                             <p className="hover">
-                                <a id="2" onClick={this.handleClick}>Todos</a>
+                                <a id="2" onClick={this.handleClick}>Kudosu</a>
                             </p>
                         </div>
                     </div>
