@@ -22,6 +22,9 @@
       transform-origin: 310px 150px;
 }
 
-.svg {
-      margin: 17% 30%;
+.main {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
 }
