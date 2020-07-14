@@ -13,10 +13,10 @@ const Minesweeper = (props) => {
                 </p>
                 <p>
                     Some base logic behind finding the mines on the board 
-                    and CSS was done for us, the rest of the logic was based on 
-                    objects and arrays manipulation. It was dauting  looking at 
-                    a blank JS file, the Dopamine hit when it finally worked was 
-                    unbelievable.
+                    and CSS were done for us, the rest of the logic was  
+                    objects and arrays manipulation. It was daunting looking at 
+                    a blank JS file, but the Dopamine hit when it finally worked 
+                    was unbelievable.
                 </p>
                 <a className="right" href="https://fai-songprasit.github.io/minesweeper/">MineSweeper</a>
         </div>

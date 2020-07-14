@@ -6,10 +6,10 @@ const LifeOfTheParty = () => {
             <h3>Life of the Party</h3>
                 <p>
                     Life of The party is a web app built using React state and 
-                    consumes an external API. This app uses a REST API that contains 
+                    consumes an external API. The app uses a REST API that contains 
                     the contents of a standard deck of cards without jokers. 
-                    This app simulates a drinking game called Red or Black, where 
-                    players guess from three different categories. The questions 
+                    It simulates a drinking game called Red or Black, where 
+                    players make a guess at three different stages. The questions 
                     and buttons change dynamically.
                 </p>
                 <p>

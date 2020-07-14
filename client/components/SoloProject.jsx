@@ -57,7 +57,7 @@ class SoloProject extends React.Component {
                         of bootcamp, the exercises that have been given to us to work
                         on during the week were mostly half started. Either the
                         front-end or the back-end side has been partially completed
-                        inorder for us to quickly absorb and practive the core concepts
+                        inorder for us to quickly absorb and practice the core concepts
                         of the new tech.
                     </p>
                     <p>

@@ -9,12 +9,13 @@ const ShowMeTheMoney = () => {
                     ReadMe document. Our client was Google and we were tasked 
                     with creating a meeting cost tracker using part of someone 
                     else's code base. The base came pre-programmed with 
-                    authenthication and SaaS.
+                    authentication and SaaS.
                 </p>
                 <p>
-                    For this project we worked in a much larger team of 7 people. 
-                    I was in charge of the overall CSS for this project and the 
-                    logic behind the dashboard and history display.
+                    For this project we worked in a much larger team of 7. 
+                    I was in charge of the overall CSS for this project and 
+                    worked with one other on the logic behind the dashboard and 
+                    history display.
                 </p>
                 <a className="right" href="https://show-me-the-monaay.herokuapp.com/">Show Me The Money</a>
         </div>

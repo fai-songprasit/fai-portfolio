@@ -14,9 +14,10 @@ const Blog = (props) => {
                     Another crucial role of this tool was for learning 
                     reflections. The blog itself was another way for us 
                     to reflect on our learning in writing and forces us 
-                    to document our progress as we go. Figuring out 
-                    what my strengths and weaknesses were and finding 
-                    the best way that best optimises my learning outcome.
+                    to document our progress as we go. The process of 
+                    Figuring out what my strengths and weaknesses were 
+                    played an invaluable role in my overall learning 
+                    outcome.
                 </p>
                 <a className="right" href="https://fai-songprasit.github.io/">Go to Blog</a>
         </div>

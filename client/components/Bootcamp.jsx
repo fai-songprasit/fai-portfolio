@@ -52,8 +52,8 @@ class Bootcamp extends React.Component {
                         </p>
                         <p>
                             I found these projects vital for learning how to deal 
-                            with team dynamics, while maining momentum and focusing 
-                            on our MVP.
+                            with team dynamics, while maintaining momentum and 
+                            focusing on our MVP.
                         </p>
                     </div>
                 )
@@ -66,17 +66,17 @@ class Bootcamp extends React.Component {
             <h2>Bootcamp</h2>
             <div className="subtext">
                 <p>
-                    The course then progressed onto the Bootcamp phase 
-                    around mid-May, when level 2 was enforced and the students were 
-                    allowed back on campus for studies. At this phase across 9 weeks 
-                    I learnt to use both back-end and front-end tools such as npm, 
-                    Express, Handlebars, SQLite, creating internal and consuming
-                    external API, Rect, Redux and Authentication. 
+                    The course then progressed on to Bootcamp around mid-May, 
+                    when level 2 was enforced and the students were allowed back 
+                    on campus for studies. At this phase, across 9 weeks I learnt 
+                    to use both back-end and front-end tools such as npm, Express, 
+                    Handlebars, SQLite, creating internal and consuming external 
+                    API, Rect, Redux and Authentication. 
                 </p>
                 <p>
                     Throughout the course students were to practice pair programming 
-                    during the learning phase, with group project capping off the
-                    each week.
+                    during the learning phase. Group projects were introduced at the 
+                    end of week two and capped off each week from then on.
                 </p>
             </div>
             <div className="container">
