@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Router>
       <header>
-      <h1>Fai Songprasit - <em>Portfolio</em></h1>
+      <h1>Fai Songprasit</h1>
         <div className="navbar">
           <NavBar/>
         </div>
