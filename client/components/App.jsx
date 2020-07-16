@@ -13,8 +13,9 @@ const App = () => {
       <Router>
       <header>
       <h1>Fai Songprasit</h1>
+      <h2>Wed Developer</h2>
         <div className="navbar">
-          <NavBar/>
+          <NavBar />
         </div>
       </header>
         <Route exact path="/" component={Home}/>

@@ -3,8 +3,24 @@ body {
     background-image: url('./images/paperplane.jpg');
     margin: auto;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     height: auto;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-left: 20px
+}
+
+header h2 {
+    font-size: 30px;
+    margin-left: 23px;
+    margin-top: -40px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-left: 5%;
 }
 
 header {
@@ -46,7 +62,7 @@ article {
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;    
 }
 
 .nav {
@@ -74,6 +90,7 @@ article {
     justify-content: flex-start;
     width: 25%;
     height: auto;
+    padding: 5% 0 5% 5%;
     border-radius: 5px 0 0 5px;
 }
 
