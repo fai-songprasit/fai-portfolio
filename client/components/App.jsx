@@ -11,12 +11,12 @@ const App = () => {
   return (
     <>
       <Router>
-      <header>
-      <h1>Fai Songprasit</h1>
-      <h2>Wed Developer</h2>
         <div className="navbar">
           <NavBar />
         </div>
+      <header>
+      <h1>Fai Songprasit</h1>
+      <h2>Wed Developer</h2>
       </header>
         <Route exact path="/" component={Home}/>
         <Route path="/home" component={Home}/>
