@@ -16,7 +16,7 @@ const App = () => {
         </div>
       <header>
       <h1>Fai Songprasit</h1>
-      <h2>Wed Developer</h2>
+      <h2>Web Developer</h2>
       </header>
         <Route exact path="/" component={Home}/>
         <Route path="/home" component={Home}/>
