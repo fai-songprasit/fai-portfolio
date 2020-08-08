@@ -84,7 +84,6 @@ article {
 .container {
     display: flex;
     width: 100%;
-    height: 300px;
     margin: 1% 0;
 }
 
@@ -136,4 +135,8 @@ article {
 
 .right {
     float: right;
+}
+
+.video a {
+    margin: 20px 40px 0 0;
 }

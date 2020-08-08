@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkWithMe from './WorkWithMe'
+import Pantree from './Pantree'
 import Grateful8 from './Grateful8'
 import LifeOfTheParty from './LifeOfTheParty'
 import QuizMeTender from './QuizMeTender'
@@ -26,7 +26,7 @@ class Bootcamp extends React.Component {
     renderContent = (id) => {
         switch (id){
             case "1":
-                return <WorkWithMe/>
+                return <Pantree/>
             case "2":
                 return <Grateful8/>
             case "3":
@@ -83,7 +83,7 @@ class Bootcamp extends React.Component {
                 <div className="list">
                     <div className="text">
                         <p className="hover">
-                            <a id="1" onClick={this.handleClick}>WorkWithMe</a>
+                            <a id="1" onClick={this.handleClick}>Pantree</a>
                         </p>
                         <p className="hover">
                             <a id="2" onClick={this.handleClick}>Grateful-8</a>
