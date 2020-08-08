@@ -30,7 +30,7 @@ const Home = () => {
                 </p>
                 <p>
                     My name is <strong>Fai Songprasit</strong> and I am a <strong>
-                    Junior full-stack web developer</strong>.
+                    full stack web developer</strong>.
                 </p>
             </div>  
         </>

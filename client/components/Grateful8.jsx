@@ -2,9 +2,13 @@ import React from 'react'
 
 const Grateful8 = () => {
     return (
-        <div>
+        <div className="video">
             <h3>Grateful-8</h3>
-                <p>
+                <video width="600" controls>
+                    <source src="../../videos/grateful8.mp4" type="video/mp4"/>
+                    Your browser does not support HTML video.
+                </video>
+                {/* <p>
                     Grateful-8 is a web app that uses and external API to
                     rendomly generate a response to any questions typed inside
                     the input field.
@@ -18,8 +22,8 @@ const Grateful8 = () => {
                 <p>
                     This was our first week using React instead of Handlebars 
                     in conjunction with React router.
-                </p>
-                <a className="right" href="https://grateful-8.herokuapp.com/">Grateful-8</a>
+                </p> */}
+                <a className="right" href="https://grateful-8.herokuapp.com/">Go to App</a>
         </div>
     )
 }
